@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+      <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+      <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+   </head>
+   
+   <body>
+      <div data-role = "page">
+         <div data-role = "header" data-theme="c">
+            <h2>Form Button</h2>
+         </div>
+      
+         <div data-role = "main" class = "ui-content">
+            <form method = "post" action = "jquery_mobile/demo.php">
+               <label for = "fname">First Name</label>
+               <input type = "text" name = "fname" style="background-color:gold ;">
+               <label for = "lname">Last Name</label>
+               <input type = "text" name = "lname"  style="background-color: gold;">
+
+               <input type = "submit" value = "Submit Button" data-inline = "true" 
+                  data-corner = "true" style="background-color: cyan;">
+               <input type = "reset" value = "Reset Button" data-inline = "true" 
+                  data-corner = "true" style="background-color: cyan;">
+            </form>
+         </div>
+      </div>
+   </body>
+</html>
